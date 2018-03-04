@@ -1,0 +1,155 @@
+body{
+  background: pink;
+}
+table{
+  border: 2px solid #fff;
+  width:100%;
+  font-size: 20px;
+}
+td{
+  padding:1%;
+}
+table tr:nth-child(odd){
+  background-color: cyan:
+  border-color: black solid;
+}
+.edu{
+  background: #7892A4;
+  borde
+}
+.edu1{
+  background-color: #34ECE2;
+}
+.edu2{
+  background-color: #34ECE2;
+}
+.edu3
+{
+  border-color: #34ECE2;
+}
+.flex-parent{
+display:flex;
+flex-direction:row;
+justify-content: center;
+border: 1px solid;
+margin:1%;
+}
+.profile-child{
+  background: lightgreen;
+  width: 30%;
+  padding: 2%;
+  margin:3%;
+  border: 1px solid;
+  box-shadow: 3px 3px 3px #000;
+}
+.content-child{
+  background: #fff;
+  width: 70%;
+  padding: 2%;
+  margin: 3%;
+  border: 1px solid;
+  box-shadow: 3px 3px 3px #000;
+}
+.boxs{
+width: 90%;
+height:10%;
+padding: 2%;
+margin: 3%;
+border: 1px solid;
+box-shadow: 2px 2px 2px #000;
+}
+h2{
+  background: #fff;
+  text-align: center;
+}
+h3{
+  background: #fff;
+    text-align: center;
+}
+
+.profile_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 50%;
+}
+.profile_circle{
+  border-radius: 60%;
+  border: 1px solid #000;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .flex-parent{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  border: 1px solid;
+  margin:1%;
+  }
+    .profile-child{
+    background: cyan;
+    width: 100%;
+    padding: 2%;
+    margin:3%;
+    border: 1px solid;
+    box-shadow: 3px 3px 3px #000;
+  }
+  .content-child{
+    background: #fff;
+    width: 100%;
+    padding: 2%;
+    margin: 3%;
+    border: 1px solid;
+    box-shadow: 3px 3px 3px #000;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:767px) {
+  .flex-parent{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  border: 1px solid;
+  margin:1%;
+  }
+  .profile-child{
+    background:cyan;
+    width: 100%;
+    padding: 2%;
+    margin:3%;
+    border: 1px solid;
+    box-shadow: 3px 3px 3px #000;
+  }
+  .content-child{
+    background: #fff;
+    width: 100%;
+    padding: 2%;
+    margin: 3%;
+    border: 1px solid;
+    box-shadow: 3px 3px 3px #000;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:1024px) {
+  .flex-parent{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  border: 1px solid;
+  margin:1%;
+  }
+  .profile-child{
+    background:cyan;
+    width: 100%;
+    padding: 2%;
+    margin:3%;
+    border: 1px solid;
+    box-shadow: 3px 3px 3px #000;
+  }
+  .content-child{
+    background: #fff;
+    width: 100%;
+    padding: 2%;
+    margin: 3%;
+    border: 1px solid;
+    box-shadow: 3px 3px 3px #000;
+  }
+}

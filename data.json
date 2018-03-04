@@ -1,0 +1,40 @@
+{
+  "basic":{
+    "name":"sai",
+    "phone":"949212961",
+    "photo":"13.jpg",
+    "email":"manikantasai007.msk@gmail.com"
+  },
+  "education":[{
+    "course":"B.tech(computer science and engineering)",
+    "college":"gudlavaleru engineering college",
+    "data":["2015-2019","75%","autonomus"]
+  },
+  {
+    "course":"inter(MPC)",
+    "college":"narayana juniour college",
+    "data":["2013-2015","75%"]
+  },
+  {
+    "course":"SSC",
+    "college":"sri krishna veni talent school",
+    "data":["2012-2013","75%"]
+  }],
+  "skills":[
+    {
+     "name":"language known",
+     "info":["c","python","java","javascript"]
+   },
+   {
+    "name":"operating system",
+    "info":["windows","linux","fedora","unix"]
+  },
+  {
+   "name":"libarires",
+   "info":["jquert","Bootstrap"]
+ },
+ {
+  "name":"Data Bases",
+  "info":["mysql","pl/sql","mysqlite","oracle"]
+}]
+}
